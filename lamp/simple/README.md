@@ -16,8 +16,11 @@
 - mysqli
 - pdo_mysql
 - pdo_sqlite
+- openssl
+- ftp
+- xdebug
 
-## Xdebug config
+## Xdebug configure
 - xdebug.idekey = "vscode"
 - xdebug.default_enable = 1
 - xdebug.remote_enable = 1
