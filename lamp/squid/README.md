@@ -30,3 +30,9 @@
 - xdebug.remote_port = 9000
 
 If you can't connect to the host from the container, set the IP address of the host to `xdebug.remote_host` instead of `host.docker.internal`.
+
+## Port
+- PHP: 80
+- MySQL: 3306
+- phpMyAdmin: 80
+- Squid: 3128
