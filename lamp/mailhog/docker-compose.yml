@@ -34,7 +34,7 @@ services:
     volumes:
       - ./maildir:/tmp
     ports:
-      - "8025:8025" 
+      - 8025:8025
     environment:
       - MH_STORAGE=maildir
       - MH_MAILDIR_PATH=/tmp
