@@ -32,7 +32,7 @@ services:
   mailhog:
     image: mailhog/mailhog
     volumes:
-      - ./maildir:/tmp
+      - ./mail:/tmp
     ports:
       - 8025:8025
     environment:
