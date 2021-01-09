@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  ssh_server:
+    build: ./ssh_server
+    privileged: true                           
+    command: /sbin/init    
+    volumes:
+      - ./ssh_server/mount:/mount
+
+  ssh_client:
+    build: ./ssh_client
+    privileged: true                           
+    command: /sbin/init    
+    volumes:
+      - ./ssh_server/mount:/mount
