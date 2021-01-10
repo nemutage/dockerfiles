@@ -1,7 +1,8 @@
 FROM centos:8
 
 RUN yum -y update \
-    && yum -y install openssh-server \ 
+    && yum -y install openssh-server \
+    && yum -y install passwd \
     && yum clean all
 
 
